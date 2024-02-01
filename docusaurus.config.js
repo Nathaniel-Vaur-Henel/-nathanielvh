@@ -49,12 +49,15 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
           blogTitle: "Mon blog de dév",
           blogDescription: "Le blog de Nathaniel Vaur Henel, ton dév sensei",
           blogSidebarCount: 50,
+          authorsMapPath: "../static/authors.yml",
           feedOptions: {
             type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Nathaniel Vaur Henel`,

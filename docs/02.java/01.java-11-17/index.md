@@ -12,6 +12,7 @@ keywords:
 - fiche technique
 # pour ajouter meta description à la page
 description: Fiche technique et aide-mémoire pour développeur sur les nouveautés de Java 11 à Java 17
+authors: nvh
 ---
 
 # Changement entre Java 11 et Java 17

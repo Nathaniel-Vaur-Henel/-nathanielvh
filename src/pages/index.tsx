@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Java Développement Fiche Pratique Aide mémoire"
+      description={`${siteConfig.tagline}`}
     >
       <HomepageHeader />
       <main>
